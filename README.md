@@ -2,7 +2,7 @@
 Personal Linux hints and howtos
 
 ## Multi terminal windows in one window
--> TMUX
+-> TMUX (for customization (ctrl+a and mouse click) see tmux conf file in same repo)
 For naming each window you can install xpanes
 installation: https://github.com/greymd/tmux-xpanes/wiki/Installation
 
