@@ -7,7 +7,10 @@ For naming each window you can install xpanes
 installation: https://github.com/greymd/tmux-xpanes/wiki/Installation
 
 Common issue: all panes are synced by default
-Solution: use default shortcut (ctrl + b) :setw synchronize-panes off 
+Solution: use default shortcut (ctrl + b) :setw synchronize-panes off
+
+### For opening ssh connection and running htop on each ssh run:
+```xpanes -e 'ssh -t dewe-db "htop"' 'ssh -t dewe-production "htop"' 'ssh -t dewe-antares "htop"'```
 
 ## (Un)Mounting file systems on system boot
 etc/fstab
