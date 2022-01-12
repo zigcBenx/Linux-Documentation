@@ -1,6 +1,10 @@
 # Linux-Documentation
 Personal Linux hints and howtos
 
+## Managing system disk space
+Get 10 largest folders/files in path
+```du -a /home/ziga | sort -n -r | head -n 10```
+
 ## Multi terminal windows in one window
 -> TMUX (for customization (ctrl+a and mouse click) see tmux conf file in same repo)
 For naming each window you can install xpanes
