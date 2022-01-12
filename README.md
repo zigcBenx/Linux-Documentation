@@ -4,6 +4,7 @@ Personal Linux hints and howtos
 ## Managing system disk space
 Get 10 largest folders/files in path
 ```du -a /home/ziga | sort -n -r | head -n 10```
+reference: https://www.cyberciti.biz/faq/linux-find-largest-file-in-directory-recursively-using-find-du/
 
 ## Multi terminal windows in one window
 -> TMUX (for customization (ctrl+a and mouse click) see tmux conf file in same repo)
