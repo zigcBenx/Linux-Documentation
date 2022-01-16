@@ -6,6 +6,14 @@ Get 10 largest folders/files in path
 ```du -a /home/ziga | sort -n -r | head -n 10```
 reference: https://www.cyberciti.biz/faq/linux-find-largest-file-in-directory-recursively-using-find-du/
 
+## Terminal standard output to clipboard
+First you have to install xclip <br/>
+```sudo apt install xclip```
+
+Then you can save any output to clipboard: <br/>
+```cat ssh_key.pub | xclip -selection clipboard```
+
+
 ## Multi terminal windows in one window
 -> TMUX (for customization (ctrl+a and mouse click) see tmux conf file in same repo)
 For naming each window you can install xpanes
