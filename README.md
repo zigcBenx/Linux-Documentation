@@ -35,3 +35,4 @@ You can also disable swap for **current session** only by running: ```sudo swapo
 ## Enabling new aliases without closing terminal
 When installing packages that are adding new aliases to our system, we usually want to use them in same terminal session.
 This is possible with running command: ```source ~/.bashrc```
+Although if you are using zsh or any other alternative to default bash terminal, make sure to source that config file instead.
