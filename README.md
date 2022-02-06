@@ -31,3 +31,7 @@ Example usage: Disable swp (swap)
 https://www.redhat.com/sysadmin/etc-fstab
 
 You can also disable swap for **current session** only by running: ```sudo swapoff -a```
+
+## Enabling new aliases without closing terminal
+When installing packages that are adding new aliases to our system, we usually want to use them in same terminal session.
+This is possible with running command: ```source ~/.bashrc```
