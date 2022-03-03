@@ -16,6 +16,11 @@ Then you can save any output to clipboard: <br/>
 
 ## Multi terminal windows in one window
 -> TMUX (for customization (ctrl+a and mouse click) see tmux conf file in same repo)
+
+For using tabs in tmux use (ctrl+a c) which opens a new tab. To swithc between them use (ctr+a <tab_index>)
+To name each tab run inside tmux window session:
+```tmux rename-window -t otherwindow newname```
+
 For naming each window you can install xpanes
 installation: https://github.com/greymd/tmux-xpanes/wiki/Installation
 
