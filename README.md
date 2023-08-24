@@ -13,6 +13,11 @@ First you have to install xclip <br/>
 Then you can save any output to clipboard: <br/>
 ```cat ssh_key.pub | xclip -selection clipboard```
 
+You can also set aliad for command (in `.bashrc` or `.zshrc`):
+```alias copy="xclip -selection clipboard"```
+
+Then you can use:
+```cat ssh_key.pub | copy```
 
 ## Multi terminal windows in one window
 -> TMUX (for customization (ctrl+a and mouse click) see tmux conf file in same repo)
