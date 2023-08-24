@@ -13,7 +13,7 @@ First you have to install xclip <br/>
 Then you can save any output to clipboard: <br/>
 ```cat ssh_key.pub | xclip -selection clipboard```
 
-You can also set aliad for command (in `.bashrc` or `.zshrc`):
+You can also set alias for command (in `.bashrc` or `.zshrc`):
 ```alias copy="xclip -selection clipboard"```
 
 Then you can use:
