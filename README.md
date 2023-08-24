@@ -48,3 +48,4 @@ Use command scp (secure copy).
 sudo scp -r local_dir/ <USER>@<IP_ADDR>:<Destination_path>
 ```
 Note: If you get permission denied, make sure that destination directory is owned by the same user you are transfering files with.
+Note2: If you want to transfer files from remote machine to local, just change order of local dir and remote machine.
