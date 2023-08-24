@@ -42,7 +42,7 @@ When installing packages that are adding new aliases to our system, we usually w
 This is possible with running command: ```source ~/.bashrc```
 Although if you are using zsh or any other alternative to default bash terminal, make sure to source that config file instead.
 
-## transfering files (directory) to remote server
+## transfering files (directory) to remote server and vice versa
 Use command scp (secure copy).
 ```
 sudo scp -r local_dir/ <USER>@<IP_ADDR>:<Destination_path>
